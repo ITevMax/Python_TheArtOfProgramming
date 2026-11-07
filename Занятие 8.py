@@ -12,6 +12,7 @@ class point:
     def __str__(self):
         return f"({self.x}, {self.y})"
 
+
 class section:
     def __init__(self, A = None, B = None):
         if A == None:
@@ -30,7 +31,7 @@ class section:
         return f"[{str(self.A)},{str(self.B)},{str(self.c)}]"
 
 
-class section:
+class triangle:
     def __init__(self, A = None, B = None):
         if A == None:
             self.A = point()
